@@ -232,10 +232,10 @@ export default () => {
                     <em>{place.activities.join(', ')}</em>
                   </Text>
                   <br />
-                  <Text type="secondary" element="div">
+                  <Text type="primary" element="div">
                     {place.address.street}, {place.address.city}
                   </Text>
-                  <Text type="secondary" element="div">
+                  <Text type="info" element="div" size="small">
                     {Math.round(place.distance)} km from your location
                   </Text>
                 </Stack>
